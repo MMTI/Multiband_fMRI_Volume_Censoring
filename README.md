@@ -64,3 +64,5 @@ III.	TR: The repetition time (TR) of the time series data, in units of seconds (
 IV.	DV_GEV_d: The GEV-DV d parameter desired by the user for run-adaptive volume censoring of LPF-DV.
 Outputs:
 I.	lpfdvCensoredVolumes: A boolean column vector whether a frame is targeted for removal (true) or not targeted for removal (false) by GEV-DV volume censoring only.
+
+This software is released with the GNU General Public License Version 3. 
