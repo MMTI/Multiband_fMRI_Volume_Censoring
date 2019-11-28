@@ -66,3 +66,5 @@ Outputs:
 I.	lpfdvCensoredVolumes: A boolean column vector whether a frame is targeted for removal (true) or not targeted for removal (false) by GEV-DV volume censoring only.
 
 This software is released with the GNU General Public License Version 3. 
+
+[![View Multiband_fMRI_Volume_Censoring on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/73479-multiband_fmri_volume_censoring)
