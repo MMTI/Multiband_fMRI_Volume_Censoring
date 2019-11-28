@@ -35,7 +35,7 @@ III.	lpfdvCensoredVolumes: A boolean column vector whether a frame is targeted f
 
 3. [censoredVolumes,lpffdCensoredVolumes,lpfdvCensoredVolumes] = …
 getCensoredVolumesFromNifti(fileNameDataNifti,fileNameBrainMask3D,MPs,LPF_FD_Threshold,DV_GEV_d)
-	This is a wrapper for getCensoredVolumes that opens a nifti or cifti time series using niftiread. It is identical, except that instead of taking in time series and a gray matter mask, it takes in the file name of the time series and the file name of the gray matter mask. The repetition time (TR) is obtained from the nifty header. It opens them using niftiread and calls getCensoredVolumes; the outputs are identical.
+	This is a wrapper for getCensoredVolumes that opens a nifti or cifti time series using niftiread. It is identical, except that instead of taking in time series and a gray matter mask, it takes in the file name of the time series and the file name of the gray matter mask. The repetition time (TR) is obtained from the nifti header. It opens them using niftiread and calls getCensoredVolumes; the outputs are identical.
 Inputs:
 I.	fileNameDataNifti4D: The file name of the nifti RSFC time series.
 II.	fileNameBrainMask3D: The file name of the nifti gray matter mask.
