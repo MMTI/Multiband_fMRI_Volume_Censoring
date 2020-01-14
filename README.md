@@ -17,7 +17,7 @@ getOptimalStudyThresholds(runLength,numRuns,usingGSR)
 Inputs:
 I.	runLength: The number of volumes per run in the dataset (e.g., 1000).
 II.	numRuns: The number of runs per subject in the dataset (e.g., 4).
-III.	usingGSR: True or 1 if global signal regression (GSR) is being used; false or 0 if GSR is now being used. 
+III.	usingGSR: True or 1 if global signal regression (GSR) is being used; false or 0 if GSR is not being used. 
 Outputs:
 I.	optimal_LPFFD_threshold: The optimal LPF-FD threshold for the study given the inputs.
 II.	optimal_GEVDV_d: The optimal GEV-DV d for the study given the inputs.
