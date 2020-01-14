@@ -7,6 +7,10 @@ Stony Brook, NY, USA.
 
 This software allows a user to get optimal LPF-FD and GEV-DV volume censoring parameters based on a given dataset size, and, using either these parameters or other, user-specified parameters, obtain a vector of volumes censored using LPF-FD and GEV-DV methods using a given matrix of motion parameters (MPs) and a resting-state fMRI time series (either a voxel or greyordinate time series) and brain mask, respectively. These methods may be used separately or in tandem, and using images that are either pre-loaded into MATLAB or loaded using user-specified file names. 
 
+This software requires MATLAB R2017b or later running on any operating system. This was created and tested using MATLAB R2019b.  This software does not require any non-standard software.
+
+Installation of this software consists of downloading, copying, or moving all functions into a directory accessable to your MATLAB installation. If downloaded as a zip file, all functions should be unzipped to a single folder before use. Unzipping this software is expected to take less than one minute on a normal desktop computer.
+
 1. [optimal_LPFFD_threshold,optimal_GEVDV_d] = … 
 getOptimalStudyThresholds(runLength,numRuns,usingGSR)
 	This is a function that can be used to obtain the optimal LPF-FD and GEV-DV thresholds given a specified number of volumes per run, the number of runs per subject, and whether the data are additionally processed using global signal regression (GSR).
@@ -65,6 +69,6 @@ IV.	DV_GEV_d: The GEV-DV d parameter desired by the user for run-adaptive volume
 Outputs:
 I.	lpfdvCensoredVolumes: A boolean column vector whether a frame is targeted for removal (true) or not targeted for removal (false) by GEV-DV volume censoring only.
 
-This software is released with the GNU General Public License Version 3. 
+This software is released under the GNU General Public License Version 3. 
 
 [![View Multiband_fMRI_Volume_Censoring on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/73479-multiband_fmri_volume_censoring)
