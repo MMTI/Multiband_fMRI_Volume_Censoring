@@ -18,7 +18,7 @@ function [optimal_LPFFD_threshold,optimal_GEVDV_d] = getOptimalStudyThresholds(r
 %   inputs.
 %
 % Author: John C. Williams, MS
-%   John.Williams@StonyBrook.edu
+%   John.Williams@StonyBrookMedicine.edu
 % PI: Jared X. Van Snellenberg, PhD
 %   Jared.VanSnellenberg@stonybrookmedicine.edu
 % Multi-Modal Translational Imaging Laboratory
@@ -33,7 +33,7 @@ function [optimal_LPFFD_threshold,optimal_GEVDV_d] = getOptimalStudyThresholds(r
         A = 0.5591;
         b = 269.6;
         c = 1.15;
-        ratio =  0.0339 / 14.336;
+        ratio =  0.0339 / 1.39;
     else %If you are not using GSR
         A = 0.0903;
         b = 937.3;
